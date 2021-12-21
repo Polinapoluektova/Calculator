@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">12sp</dimen>
+    <dimen name="widthText">110dp</dimen>
+    <dimen name="heightText">20dp</dimen>
+    <dimen name="widthEdit">220dp</dimen>
+    <dimen name="heightEdit">40dp</dimen>
+    <dimen name="leftMargin">1.0</dimen>
+    <dimen name="bottomIndentOne">0.32</dimen>
+    <dimen name="bottomIndentTwo">0.398</dimen>
+    <dimen name="marginLeft">28dp</dimen>
+    <dimen name="marginEnd">236dp</dimen>
+    <dimen name="bottomIndentThree">0.326</dimen>
+    <dimen name="bottomIndentFour">0.403</dimen>
+    <dimen name="marginLeft_">300dp</dimen>
+    <dimen name="topIndentation">50dp</dimen>
+    <dimen name="bottomIndentFive">0.499</dimen>
+    <dimen name="leftMargin____">0.495</dimen>
+
+
+    <dimen name="v3">0.487</dimen>
+    <dimen name="leftMargin___">0.498</dimen>
+    <dimen name="bottomIndentTen">0.839</dimen>
+    <dimen name="marginLeft__">28dp</dimen>
+    <dimen name="marginEnd__">520dp</dimen>
+    <dimen name="bottomIndentEight">0.445</dimen>
+    <dimen name="bottomIndentNine">0.567</dimen>
+    <dimen name="leftMargin__">0.499</dimen>
+    <dimen name="bottomIndentSix">0.442</dimen>
+    <dimen name="bottomIndentSeven">0.568</dimen>
+</resources>

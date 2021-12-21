@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/term1"
+        android:layout_width="@dimen/widthEdit"
+        android:layout_height="@dimen/heightEdit"
+        android:ems="10"
+        android:hint="@string/inputOne"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/leftMargin__"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/bottomIndentSix"  />
+
+    <EditText
+        android:id="@+id/term2"
+        android:layout_width="@dimen/widthEdit"
+        android:layout_height="@dimen/heightEdit"
+        android:ems="10"
+        android:hint="@string/inputTwo"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/leftMargin__"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/bottomIndentSeven"  />
+
+    <TextView
+        android:id="@+id/firstTerm"
+        android:layout_width="@dimen/widthText"
+        android:layout_height="@dimen/heightText"
+        android:layout_marginLeft="@dimen/marginLeft__"
+        android:layout_marginEnd="@dimen/marginEnd__"
+        android:text="@string/firstTerm"
+        android:textSize="@dimen/textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/bottomIndentEight"  />
+
+    <TextView
+        android:id="@+id/secondTerm"
+        android:layout_width="@dimen/widthText"
+        android:layout_height="@dimen/heightText"
+        android:layout_marginLeft="@dimen/marginLeft__"
+        android:layout_marginEnd="@dimen/marginEnd__"
+        android:text="@string/secondTerm"
+        android:textSize="@dimen/textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/bottomIndentNine"  />
+    <Button
+        android:id="@+id/fold"
+        android:layout_width="@dimen/marginLeft_"
+        android:layout_height="@dimen/topIndentation"
+        android:backgroundTint="@color/azure"
+        android:onClick="fold"
+        android:text="@string/toFold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/leftMargin___"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/bottomIndentTen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
