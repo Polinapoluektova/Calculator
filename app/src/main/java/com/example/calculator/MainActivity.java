@@ -19,6 +19,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
     }
+    public boolean examination(String bool) {
+        try {
+            Integer.parseInt(bool);
+        } catch (NumberFormatException e) {
+            return false;
+        }
+        return true;
+    }
     public void fold(View view) {
         EditText TermFirst = findViewById(R.id.term1);
         EditText TermSecond = findViewById(R.id.term2);
@@ -38,13 +46,5 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
         }
-    }
-    public boolean examination(String bool) {
-        try {
-            Integer.parseInt(bool);
-        } catch (NumberFormatException e) {
-            return false;
-        }
-        return true;
     }
 }
